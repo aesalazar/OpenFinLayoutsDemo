@@ -1,0 +1,27 @@
+{
+  "name": "openfin-layout-demo",
+  "version": "1.0.0",
+  "description": "Demonstrates the OpenFin Layouts service for window snap and dock.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "openfin": "node_modules/.bin/openfin --launch --config http://localhost:5000/app.json"
+  },
+  "keywords": [
+    "OpenFin",
+    "node.js",
+    "layout"
+  ],
+  "author": "Ernie Salazar",
+  "company": "Eikos Partners, LLC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "openfin-layouts": "0.0.2"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "openfin-cli": "^1.1.5",
+    "watchify": "^3.11.0"
+  }
+}

@@ -1,0 +1,18 @@
+button {
+  margin-bottom: 5px;
+}
+
+.divMain{
+  padding: 10px 20px;
+}
+
+.divButtons {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.divMain textarea {
+  height: calc(100vh - 100px);
+  width: calc(100% - 6px);
+}

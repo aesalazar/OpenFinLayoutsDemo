@@ -1,0 +1,27 @@
+body {
+  background: black;
+  color: yellow;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+a:link, a:visited {
+  color: red; 
+  text-decoration: underline;
+}
+
+button {
+  background: #f3d311;
+  color: black;
+  font-weight: bold;
+  font-size: medium;
+  height: 30px;
+  width: 200px;
+}
+
+textarea {
+  background-color: #3a3a3a;
+  color: white;
+  font-size: medium;
+}

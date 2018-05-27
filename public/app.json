@@ -1,0 +1,29 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "openfin-layout-demo",
+        "url": "http://localhost:5000/index.html",
+        "uuid": "openfin-layout-demo",
+        "icon": "http://localhost:5000/images/icon.ico",
+        "autoShow": true,
+        "defaultTop": 100,
+        "defaultLeft": 100,
+        "defaultWidth": 600,
+        "defaultHeight": 500
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "Eikos Partners, LLC",
+        "description": "Demonstrates the OpenFin Layouts service for window snap and dock.",
+        "icon": "http://localhost:5000/images/icon.ico",
+        "name": "openfin-layout-demo"
+    },
+    "services": [
+        {
+            "name": "layouts"
+        }
+    ]
+}
