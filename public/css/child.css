@@ -9,6 +9,11 @@ body {
     border-color: #AFAFAF;
 }
 
+button {
+  width: 100px;
+  margin-bottom: 5px;
+}
+
 .divControls{
     margin: 20px 10px 5px 10px;
     text-align: center;

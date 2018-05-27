@@ -23,6 +23,21 @@ const undockWindow = () => {
         .catch((reject) => logText(`ERROR: ${reject}`));
 };
 
+//Undock function
+const deregisterWindow = () => {
+    logText("De-registering child window...\n");
+
+    layouts
+        .deregister()
+        .then(() => logText("Child window undocked."))
+        .catch((reject) => logText(`ERROR: ${reject}`));
+};
+
+//wire the buttons
 const btnUndock = document.getElementById('btnUndock');
 btnUndock.onclick = undockWindow;
+
+const btnDeregister = document.getElementById('btnDeregister');
+btnDeregister.onclick = deregisterWindow;
+
 logText("Window ready.\n");
