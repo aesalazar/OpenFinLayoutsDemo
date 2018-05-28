@@ -29,7 +29,7 @@ const deregisterWindow = () => {
 
     layouts
         .deregister()
-        .then(() => logText("Child window undocked."))
+        .then(() => logText("Child window unregistered."))
         .catch((reject) => logText(`ERROR: ${reject}`));
 };
 
