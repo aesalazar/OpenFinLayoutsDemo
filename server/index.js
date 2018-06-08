@@ -48,9 +48,8 @@ const undockWindow = () => {
         .catch((reject) => logText(`ERROR: ${reject}`));
 };
 
-//Store the fin object
+//Dom and openfin are ready
 fin.desktop.main(() => {
-    //setup the buttons
     const btnCreateWindow = document.getElementById('btnCreateWindow');
     btnCreateWindow.onclick = createWindow;
 

@@ -23,7 +23,7 @@ const undockWindow = () => {
         .catch((reject) => logText(`ERROR: ${reject}`));
 };
 
-//Undock function
+//Deregister function
 const deregisterWindow = () => {
     logText("De-registering child window...\n");
 
